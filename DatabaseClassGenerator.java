@@ -8,9 +8,9 @@ public class DatabaseClassGenerator {
 
     public static void main(String[] args) {
         // Informations de connexion à la base de données
-        String jdbcUrl = "jdbc:postgresql://localhost:5432/foncier";
+        String jdbcUrl = "jdbc:postgresql://localhost:5432/g_stock";
         String username = "postgres";
-        String password = "mdp";
+        String password = "dbapg";
 
         try (Connection connection = DriverManager.getConnection(jdbcUrl, username, password)) {
             // Obtenir les métadonnées de la base de données
