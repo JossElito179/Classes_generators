@@ -1,0 +1,15 @@
+<config>
+    <!-- JAVA ou C# -->
+    <language>JAVA</language>
+    <base>
+        <!-- postgres ou mysql -->
+        <serveur>postgres</serveur>
+        <database>generic_class</database>
+        <table>test</table>
+        <user>postgres</user>
+        <password>mdp</password>
+    </base>
+    <paths>
+        <package>model</package>
+    </paths>
+</config>

@@ -1,0 +1,28 @@
+[
+  {
+    "nom": "JAVA",
+    "extension": "java",
+    "package": "package ${packageName};",
+    "import": "import ${importName}n;",
+    "class_declaration": "public class ${className} {",
+    "attributes": "private ${attributesType}n ${attributesName}n;",
+    "getters_setters": "public ${attributesType}n get${attributesNameMaj}n() { return this.${attributesName}n; }\n    public void set${attributesNameMaj}n(${attributesType}n ${attributesName}n) { this.${attributesName}n = ${attributesName}n; }",
+    "constructors": "",
+    "attributes_type": ["int", "String", "double", "float", "Date", "Time", "Timestamp", "Object"],
+    "import_statement": ["java.sql.Date", "java.sql.Time", "java.sql.Timestamp"],
+    "end_of_class": "}"
+  },
+  {
+    "nom": "C#",
+    "extension": "cs",
+    "package": "namespace ${packageName} {",
+    "import": "using ${importName}n;",
+    "class_declaration": "public class ${className} {",
+    "attributes": "private ${attributesType}n ${attributesName}n;",
+    "getters_setters": "public ${attributesType}n ${attributesNameMaj}n {get; set} ",
+    "constructors": "",
+    "attributes_type": ["int", "string", "double", "float", "Date", "Time", "Datetime", "Object"],
+    "import_statement": ["System", "System", "System"],
+    "end_of_class": "}\n}"
+  }
+]
